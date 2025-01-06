@@ -2,9 +2,9 @@
 
 namespace A909M\WeightConversions;
 
+use A909M\WeightConversions\Commands\WeightConversionsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use A909M\WeightConversions\Commands\WeightConversionsCommand;
 
 class WeightConversionsServiceProvider extends PackageServiceProvider
 {
