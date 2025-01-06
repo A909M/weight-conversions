@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace A909M\WeightConversions;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use A909M\WeightConversions\Commands\WeightConversionsCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class WeightConversionsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('weight-conversions')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_weight_conversions_table')
+            ->hasCommand(WeightConversionsCommand::class);
     }
 }
