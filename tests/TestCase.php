@@ -2,9 +2,9 @@
 
 namespace A909M\WeightConversions\Tests;
 
+use A909M\WeightConversions\WeightConversionsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use A909M\WeightConversions\WeightConversionsServiceProvider;
 
 class TestCase extends Orchestra
 {
